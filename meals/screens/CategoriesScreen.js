@@ -8,7 +8,9 @@ function CategoriesScreen({ navigation }) {
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
-          navigation.navigate("MealsOverview");
+          navigation.navigate("MealsOverview", {
+            catgoryId: itemData.item.id,
+          });
         }
       
         return (
