@@ -1,15 +1,11 @@
 import { useLayoutEffect } from 'react';
 import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
-import {IconButton} from '../components/IconButton';
-import {Subtitle} from '../components/mealdetail/Subtitle';
-import {MealDetails} from '../components/mealdetail/List';
+import IconButton from '../components/IconButton';
+import List from '../components/mealdetail/List';
+import Subtitle from '../components/mealdetail/Subtitle';
+import MealDetails from '../components/MealDetails';
 import { MEALS } from '../data/dummy-data';
-import {List} from '../components/mealdetail/List';
-
-
-
-
 
 function MealDetailScreen({ route, navigation }) {
   const mealId = route.params.mealId;
