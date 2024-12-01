@@ -9,3 +9,5 @@
 # 4. npm install @react-navigation/bottom-tabs
 # 5. create a realtime db in firebase https://console.firebase.google.com/project/react-native-fe957/database/react-native-fe957-default-rtdb/data
 # 6. npm install axios
+# 7. npm install @react-native-async-storage/async-storage
+# 8. expo install expo-app-loading

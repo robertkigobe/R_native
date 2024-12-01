@@ -12,7 +12,7 @@ export const AuthContext = createContext({
 function AuthContextProvider({ children }) {
   const [authToken, setAuthToken] = useState();
 
-  function  (token) {
+  function authenticate(token) {
     setAuthToken(token);
     AsyncStorage.setItem('token', token);
   }

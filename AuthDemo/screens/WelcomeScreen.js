@@ -13,7 +13,7 @@ function WelcomeScreen() {
   useEffect(() => {
     axios
       .get(
-        'https://react-native-course-3cceb-default-rtdb.firebaseio.com/message.json?auth=' +
+        'https://react-native-fe957-default-rtdb.firebaseio.com/message.json?auth=' +
           token
       )
       .then((response) => {
